@@ -1,6 +1,6 @@
 # ThereVR
 
-Check out our demo video at: [Demo](https://youtu.be/F5jgOfT--sU)
+Check out our demo video at: [Demo](https://www.youtube.com/watch?v=H3Ez_DDQvq4)
 
 ### Structure
 
