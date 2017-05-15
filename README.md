@@ -1,10 +1,11 @@
 # ThereVR
 
+Github: https://github.com/qwook/therevr
 Check out our demo video at: [Demo](https://www.youtube.com/watch?v=H3Ez_DDQvq4)
 
 ### Structure
 
-ThereVR is split into three components, the Web Server and the Electron App. Commands to start each respective components will be split up into two sections.
+ThereVR is split into three components, the Web Server, the Electron App, and the Eye-tracking. Commands to start each respective components will be split up into two sections.
 
 ### Web Server Structure (./therevr/)
 - app/
@@ -117,14 +118,14 @@ Therenect is the C++ node addon that allows for communication between Kinect and
 ------------------------------------------------------------------------------------------
 
 # **ThereVR Eye-tracking Code**
------
+
 The code contained in this repository is the entire source code for the linux executable of ThereVR's eye-tracking software. The code has the following dependecies:
 * OpenCV
 * BlueZ
 * GLib
  
 # Setup Raspbian on SD Card (Mac OS X) 
------
+
 1. Download Raspbian from raspberrypi.org
 Verify checksum of download to ensure download is valid
 `shasum <raspbian zip download name>`
@@ -161,7 +162,7 @@ UPDATE 1/28/2016 ISSUE 1
 reference raspberrypi.org tutorial
 
 # Setup BlueZ 5.43
----
+
 1. Install BlueZ dependencies
 ```
 sudo apt-get update
@@ -259,7 +260,7 @@ If you are running into any trouble reference the original tutorial
 pyimagesearch.com
 
 # Setup Build Tools
----
+
 1. Install Scons
 2. Verify OpenCV install by building example_cv project
 ```
